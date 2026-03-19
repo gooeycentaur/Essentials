@@ -10135,7 +10135,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 54.899994, y: 56}
+  m_AnchoredPosition: {x: 54.4, y: 56.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &247665824
@@ -41177,11 +41177,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a8862fefc9a40de8a865b36e083f0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: 64c59e812861147a88d9e55a69834e31, type: 2}
+  id: {fileID: 11400000, guid: d61e2c7d84c2b42beaf8e19d19fac80c, type: 2}
   matchEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691404065}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1149869328}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -61833,7 +61845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e78bdf5ed9784e75a92c53169c936b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: 64c59e812861147a88d9e55a69834e31, type: 2}
+  id: {fileID: 11400000, guid: d61e2c7d84c2b42beaf8e19d19fac80c, type: 2}
 --- !u!114 &1691404069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79010,7 +79022,7 @@ PrefabInstance:
       objectReference: {fileID: 1551556782}
     - target: {fileID: 8518152891778317683, guid: 78a139e71369dd346a4733cfac8f0105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.42
+      value: -4.28
       objectReference: {fileID: 0}
     - target: {fileID: 8518152891778317683, guid: 78a139e71369dd346a4733cfac8f0105, type: 3}
       propertyPath: m_LocalPosition.y
