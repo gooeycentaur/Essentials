@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/My Levels/Lythol Dam.unity
     guid: 558cdced075c1fb48bbc407132475407
+  - enabled: 1
+    path: Assets/Scenes/My Levels/Dam Gates.unity
+    guid: 4dbf5199793504fe587dd3f267f3aebb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
